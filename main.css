@@ -23,6 +23,7 @@ body {
     -webkit-box-align: center;
     border:30px; 
     background-color:#ECECEC;
+    line-height:120px;/*垂直居中*/
 }
 
 .div2 {
