@@ -8,39 +8,45 @@ body {
 } */
 .a1 {
     font-family: MI-LANTING_GB-OUTSIDE-YS;
-    font-size: 45px;
+    font-size: 4vw;
     color: #1C1C1C;
     letter-spacing: 2.95px;
     text-align: center; 
     margin:0 auto 0 auto;
-    height:60px;
+    padding-bottom:6vw;
+}
+#container {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content:space-around;
 }
 .div1 {
-    display: flex;
+    
     box-sizing: border-box; 
-    height:120px;
+    height:11vw;
+    width:100vw;
     -webkit-box-pack:center;
     -webkit-box-align: center;
-    border:30px; 
+    /* border:3vw;  */
     background-color:#ECECEC;
-    line-height:120px;/*垂直居中*/
+    line-height:11vw;/*垂直居中*/
+    text-align:center;
 }
 
 .div2 {
-    width:336px;
+    width:264px;
     height:509px;
-    float:left;
-    margin:0;
+    margin:48px 36px 0px 36px;
 }
 
 .img1 {
     width:264px;
     height:352px;
-    float:right; 
+    
 }
 
 .p1 {
-    text-indent:72px;
+    text-indent:0px;
     font-family: MI-LANTING_GB-OUTSIDE-YS;
     font-size: 36px;
     color: #333333;
